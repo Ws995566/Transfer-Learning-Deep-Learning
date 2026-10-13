@@ -13,7 +13,7 @@ Based on the project directory:
 ├── Grafik Kurva Training B1.png               # Training Loss vs. Validation Loss comparative graph for B1
 ├── Grafik Kurva Training B2.png               # Training Loss vs. Validation Loss comparative graph for B2
 ├── Grafik Kurva Training B3.png               # Training Loss vs. Validation Loss comparative graph for B3
-├── Failure Analysis.png                       # Qualitative misclassification analysis & visual sample diagnosis
+├── Failure Analysis.png                       # Several Examples of False Prediction of some data
 ├── requirements.txt                           # Python package dependencies
 └── README.md                                  # Project documentation and setup guide
 ```
@@ -55,7 +55,7 @@ Based on the project directory:
 
 1. Launch Jupyter Notebook or upload `Bagian B.ipynb` to [Google Colab](https://colab.research.google.com/):
    ```bash
-   jupyter notebook Bagian_B.ipynb
+   jupyter notebook Bagian B.ipynb
    ```
 2. Make sure a GPU accelerator (e.g., NVIDIA T4 or higher) is enabled.
 3. Run cells sequentially. The Oxford-IIIT Pet dataset will automatically download via `torchvision.datasets`.
